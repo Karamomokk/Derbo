@@ -43,7 +43,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         
         //initを設定、groupedは、グレーでまとまってるでスタイル
-        firstTableView = UITableView(frame: self.view.frame, style: UITableView.Style.grouped)
+        //firstTableView = UITableView(frame: self.view.frame, style: UITableView.Style.grouped)
         //デリゲートのプロパティとデータソースのプロパティをViewControllerクラスでつくる
         firstTableView.delegate = self
         firstTableView.dataSource = self

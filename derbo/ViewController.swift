@@ -79,6 +79,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         alert.addAction(cancelAction)
         self.present(alert, animated: true, completion: nil)
     }
+    // スワイプで削除
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        data.remove(at: indexPath.row)
+        firstTableView.deleteRows(at: [indexPath], with: .fade)
+    }
 }
 
 

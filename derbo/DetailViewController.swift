@@ -22,5 +22,9 @@ class DetailViewController : UIViewController, UITableViewDelegate, UITableViewD
         <#code#>
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
     
 }

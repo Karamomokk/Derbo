@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     @IBAction func addalert(_ sender: Any) {
-        let alert = UIAlertController(title: "出金口座は？", message: "口座名を入力してね", preferredStyle: .alert)
+        let alert = UIAlertController(title: "出金口座は？", message: "口座名を入力するガネ", preferredStyle: .alert)
         //preferredStyleは、アラートでいいのか？
         
         //addTextField(configurationHandler:)の動作=テキストを追加
@@ -83,6 +83,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         data.remove(at: indexPath.row)
         firstTableView.deleteRows(at: [indexPath], with: .fade)
+    }
+    //タップして画面推移
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // セルの選択を解除
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        // 別の画面に遷移
+        performSegue(withIdentifier: "toDetail", sender: nil)
     }
 }
 

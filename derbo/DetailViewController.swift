@@ -77,4 +77,14 @@ class DetailViewController : UIViewController, UITableViewDelegate, UITableViewD
         detailDate.remove(at: indexPath.row)
         detailTableView.deleteRows(at: [indexPath], with: .fade)
     }
+    
+    //タップして画面推移
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        // セルの選択を解除
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        // 別の画面に遷移
+        performSegue(withIdentifier: "modifyPage", sender: nil)
+    }
 }

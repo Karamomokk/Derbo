@@ -84,44 +84,11 @@
                     </navigationItem>
                     <connections>
                         <outlet property="detailTableView" destination="hi9-Ef-rpQ" id="kvO-qx-TCG"/>
-                        <segue destination="PFq-me-q2j" kind="presentation" identifier="modifyPage" id="Olu-92-A2Y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkc-sb-Z9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2060" y="137.4384236453202"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="GrZ-Qc-4ua">
-            <objects>
-                <tableViewController id="PFq-me-q2j" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="iNd-cw-Ifr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <sections>
-                            <tableViewSection headerTitle=" 項目" id="Lzu-2o-D4Y">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="L8K-W7-FXF">
-                                        <rect key="frame" x="0.0" y="55.333333333333343" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="L8K-W7-FXF" id="Mck-WD-Bah">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="PFq-me-q2j" id="d0p-Uq-EOe"/>
-                            <outlet property="delegate" destination="PFq-me-q2j" id="Fhz-Fq-EHh"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YbV-SU-RT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3002" y="125"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="orf-Zi-UE9">

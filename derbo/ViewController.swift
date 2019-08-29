@@ -11,8 +11,7 @@ import UIKit
     class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         //セルの数
-        var data:[(name: String, price: Int)] = []
-        
+        var data:[String] = []
         
         
         @IBOutlet weak var firstTableView: UITableView!
@@ -32,8 +31,8 @@ import UIKit
             var detailTextLabel: UILabel?
             //ほんまは左に画像がほしいよね、、画像用意できたらこのプロパティを設定しましょうぞ
             //        var imageView: UIImageView?
-            cell.textLabel?.text = data[indexPath.row].name
-            cell.detailTextLabel?.text = "data[indexPath.row].price"
+            cell.textLabel?.text = data[indexPath.row]
+            cell.detailTextLabel?.text = "0"
             //＞のマークがこれらしい
             cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
             //        cell.imageView?.image = UIImage(name: “imageの名前”)
@@ -66,7 +65,8 @@ import UIKit
                 //これなんじゃ？一回入れてみる
                 //self.data.insert(alert.textFields!.first!.text!, at: 0)
                 
-                self.data.name.insert(alert.textFields!.first!.text!, at: 0)
+                self.data.insert(alert.textFields!.first!.text!, at: 0)
+                
                 
                 self.firstTableView.beginUpdates()
                 

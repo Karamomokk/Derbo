@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "derbo/DetailViewController.swift"
+            timestampString = "588750962.215691"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.detailTableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.756163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.detailTableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.758376"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.detailTableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.7599289"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.detailTableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.761348"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; derbo.DetailViewController"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.762741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "derbo.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;derbo.DetailViewController&gt;"
+                  moduleName = "derbo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kana/karamomopractice/derbo/DetailViewController.swift"
+                  timestampString = "588750964.764344"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "derbo/DetailViewController.swift"
+            timestampString = "588750962.216264"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

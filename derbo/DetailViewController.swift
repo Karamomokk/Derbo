@@ -30,7 +30,7 @@ class DetailViewController : UIViewController, UITableViewDelegate, UITableViewD
         cell.detailTextLabel?.text = "0"
         //＞のマークがこれらしい
         cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
-        //        cell.imageView?.image = UIImage(name: “imageの名前”)
+        //cell.imageView?.image = UIImage(name: “imageの名前”)
         return cell
     }
     
@@ -77,5 +77,6 @@ class DetailViewController : UIViewController, UITableViewDelegate, UITableViewD
         detailDate.remove(at: indexPath.row)
         detailTableView.deleteRows(at: [indexPath], with: .fade)
     }
+    
     
 }
